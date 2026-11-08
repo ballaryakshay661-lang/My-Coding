@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Student Registration</h1>
+        <p>Register for your course</p>
+    </header>
+
+    <main>
+        <form id="studentForm">
+
+            <label for="studentName">Full Name</label>
+            <input type="text" id="studentName" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" required>
+
+            <label for="course">Choose Course</label>
+            <select id="course" required>
+                <option value="">Select a course</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="BCom">BCom</option>
+            </select>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" minlength="6" required>
+
+            <button type="submit">Register</button>
+
+            <p id="message"></p>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>My-Coding | Day 3</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
