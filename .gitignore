@@ -1,0 +1,25 @@
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# VS Code local settings
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
